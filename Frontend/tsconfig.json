@@ -1,5 +1,10 @@
 {
-  "files": [],
+  "files": [
+    "declaration.d.ts",
+    "./src/**/*",
+    "./src/components/**/*",
+    "./src/data/**/*"
+  ],
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -8,4 +13,5 @@
       "path": "./tsconfig.node.json"
     }
   ]
+  
 }
