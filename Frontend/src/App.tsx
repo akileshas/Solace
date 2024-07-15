@@ -5,6 +5,7 @@ import Home from './pages/home/home';
 import About from './pages/about/about';
 import NotFound from './pages/not_found/not_found';
 import './App.css';
+import SignUpForm from './components/form/SignUpform';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/signup" element={<SignUpForm />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
