@@ -1,8 +1,9 @@
 import React , {useState}from 'react';
-import '../form/SignUpform.css';
+import '../SIGNIN/sigin.css';
 import icons from '../../assets/icons';
+//import images from '../../assets/images';
 
-const SignUpForm = () => {
+const SignInForm = () => {
     const [formData , setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -22,6 +23,7 @@ const SignUpForm = () => {
       };
 
     return (
+      
         <div className="signup-container">
           <h1>Welcome to Solace.</h1>
           <h2>Register an new account!</h2>
@@ -38,6 +40,7 @@ const SignUpForm = () => {
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
+                // className="last-name"
                 value={formData.lastName}
                 onChange={handleChange}
               />
@@ -68,6 +71,7 @@ const SignUpForm = () => {
                 type="password"
                 name="confirmPassword"
                 placeholder="Confirm Password"
+                // className='confirm-password'
                 value={formData.confirmPassword}
                 onChange={handleChange}
               />
@@ -97,4 +101,4 @@ const SignUpForm = () => {
       );
     };
     
-    export default SignUpForm;
+    export default SignInForm;

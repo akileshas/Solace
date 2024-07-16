@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    /* Other styles for the header */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust as needed */
+    margin-right: auto; /* This pushes other content to the right */
+  }
