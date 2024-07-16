@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  /* Optional background color for the whole page */
+}
+
+
+.signup-container {
+    max-width: 600px;
+    margin-left: 0 auto ;
+    padding: 20px;
+    background-color:opaque;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .google-signup {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .google-signup img {
+    width: 20px;
+    height: 20px;
+  }
