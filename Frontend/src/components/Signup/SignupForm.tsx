@@ -1,6 +1,6 @@
 import React , {useState}from 'react';
 import icons from '../../assets/icons';
-import '../form/SignUpform.css';
+import '../Signup/SignupForm.css';
 
 const SignUpForm = () => {
     const [formData , setFormData] = useState({
